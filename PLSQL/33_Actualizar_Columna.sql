@@ -1,0 +1,10 @@
+UPDATE empleados SET diastrabajados = 30 WHERE id = 1;
+UPDATE empleados SET diastrabajados = 25 WHERE id = 2;
+UPDATE empleados SET diastrabajados = 25 WHERE id = 3;
+UPDATE empleados SET diastrabajados = 20 WHERE id = 4;
+UPDATE empleados SET diastrabajados = 10 WHERE id = 5;
+UPDATE empleados SET diastrabajados = 1 WHERE id = 6;
+UPDATE empleados SET diastrabajados = 5 WHERE id = 7;
+UPDATE empleados SET diastrabajados = 18 WHERE id = 8;
+UPDATE empleados SET diastrabajados = 19 WHERE id = 9;
+UPDATE empleados SET diastrabajados = 20 WHERE id = 10;
