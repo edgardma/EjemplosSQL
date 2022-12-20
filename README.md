@@ -51,3 +51,17 @@ Con esto se ejecutará sin problemas el script de creación de usuario.
 *[ORA-65096: create 12c user without c## prefix](http://www.dba-oracle.com/t_ora_65096_create_user_12c_without_c_prefix.htm)*
 
 *[Multi-tenant local vs. common users tips](http://www.dba-oracle.com/t_multi_tenant_local_common_users.htm)*
+
+
+
+## Almacenar fecha y hora en un campo DATE
+
+```plsql
+ALTER SESSION SET NLS_DATE_FORMAT = 'dd/mm/yyyy hh24:mi:ss';
+
+UPDATE ESQUEMA.TABLA SET
+    FECHA = TO_DATE('2022/12/19 16:45:44', 'yyyy/mm/dd hh24:mi:ss')
+WHERE ID = 1;
+```
+
+*Fuente: [how to insert date and time in oracle? - Stack Overflow](https://stackoverflow.com/questions/7536628/how-to-insert-date-and-time-in-oracle)*
